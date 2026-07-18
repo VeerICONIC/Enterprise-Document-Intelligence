@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+python-multipart
+
+langchain
+langgraph
+langchain-community
+langchain-chroma
+langchain-huggingface
+langchain-ollama
+
+chromadb
+sentence-transformers
+pypdf
+
+streamlit
