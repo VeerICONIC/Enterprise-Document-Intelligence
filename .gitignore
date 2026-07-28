@@ -1,13 +1,28 @@
-venv/
+# Python
 __pycache__/
-.ipynb_checkpoints/
-
-uploaded_docs/
-vectorstore/
-
-*.pyc
+*.py[cod]
 *.pyo
-
+*.pyd
+*.egg-info/
+venv/
 .env
 
+# Vector Database
+vectorstore/
+
+# Uploaded PDFs
+uploaded_docs/
+
+# Registry
 document_registry.json
+
+# React
+node_modules/
+dist/
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db

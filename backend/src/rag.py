@@ -33,6 +33,10 @@ while True:
     # Step 1: Retrieve relevant documents
     docs = retriever.invoke(question)
 
+    print("\nRetrieved Documents:")
+    for doc in docs:
+        print(doc.metadata)
+
     context = ""
 
     for doc in docs:
